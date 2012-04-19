@@ -1,0 +1,178 @@
+html
+{
+	background:#fff;
+	color:#000;
+	font-family:Georgia,Arial;
+	font-size:18px;
+}
+#wrap
+{
+	width:960px;
+	margin:auto;
+	padding-top:5px;
+	margin-bottom:30px;
+}
+#socialBox
+{
+	width:55px;
+	float:left;
+	margin-left:-110px;
+	margin-top:50px;
+	position:fixed;
+	border:1px solid #ddd;
+	padding:10px;
+}
+#socialBox .tit
+{
+	margin-bottom:10px;
+	font-size:12px;
+}
+#socialBox .socialItem
+{
+	height:62px;
+	margin-bottom:10px;
+}
+#socialBox .socialItem.last
+{
+	margin-bottom:0;
+}
+abbr
+{
+	cursor:help;
+	border-bottom:1px dashed #000;
+}
+#head
+{
+	border-bottom:3px solid black;
+	padding:15px;
+	padding-top:0px;
+}
+h1
+{
+	font-size:80px;
+}
+h1 a, h1 a:visited
+{
+	text-decoration:none;
+	color:black;
+}
+h2.big
+{
+	font-size:36px;
+}
+p
+{
+	margin-top:20px;
+}
+#head .menu
+{
+	overflow:auto;
+	width:100%;
+	padding-top:15px;
+	font-size:22px;
+}
+#head .menu li
+{
+	float:left;
+	padding:10px;
+	margin-right:20px;
+}
+#head .menu li a
+{
+	color:black;
+}
+#head .menu li.current
+{
+	background:#c3d9ff;
+}
+#body
+{
+	padding:15px;
+}
+.contents .content
+{
+	padding-bottom:20px;
+	overflow:auto;
+	width:100%;
+}
+.contents .content .cat, .contents .content .lnk
+{
+	float:left;
+}
+.contents .content .cat
+{
+	border:1px solid #ddd;
+	padding:5px;
+	background:#C3D9FF;
+	width:120px;
+	text-align:center;
+}
+.contents .content .cat a
+{
+	text-decoration:none;
+	color:black;
+}
+.contents .content .lnk
+{
+	width:780px;
+	padding-left:15px;
+}
+.contents .content .lnk .desc
+{
+	font-size:15px;
+	padding-top:5px;
+}
+.contents .content .lnk .sub
+{
+	font-size:13px;
+	color:#888;
+	padding-top:5px;
+}
+.content_data
+{
+	font-size:15px;
+	color:#888;
+	padding-top:5px;
+}
+p.sub_title_desc
+{
+	font-size:16px;
+	margin-top:0;
+	margin-bottom:10px;
+	color:#777;
+}
+.paging
+{
+	text-align:right;
+}
+#disqus_thread
+{
+	width:650px;
+	margin-top:15px;
+	float:left;
+}
+.social
+{
+	margin-top:30px;
+	margin-left:40px;
+	padding:15px;
+	background:#C3D9FF;
+	width:187px;
+	height:100px;
+	float:left;
+}
+.social .tit
+{
+	margin-bottom:15px;
+	font-weight:bold;
+}
+.social .socialItem
+{
+	height:62px;
+	float:left;
+	margin-right:15px;
+}
+.social .socialItem.last
+{
+	margin-right:0;
+}
